@@ -1,0 +1,18 @@
+import 'rsuite/dist/rsuite-no-reset.min.css';
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nova Square', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 2.5px;
+    margin: 20px 0;
+}
