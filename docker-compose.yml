@@ -7,6 +7,8 @@ services:
     build:
       context: .
       target: production
+    ports:
+      - 8080:80
     volumes:
       - .:/app
       - /app/node_modules
